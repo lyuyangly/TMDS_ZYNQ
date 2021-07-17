@@ -1,0 +1,34 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.12  2014-12-16 bk=1.3272 VDI=35 GEI=35 GUI=JA:1.8
+#  -string -flagsOSRD
+preplace port FCLK_CLK3 -pg 1 -y 190 -defaultsOSRD
+preplace port DDR -pg 1 -y 70 -defaultsOSRD
+preplace port FCLK_RESET0_N -pg 1 -y 210 -defaultsOSRD
+preplace port S_AXI_GP0 -pg 1 -y 150 -defaultsOSRD
+preplace port FCLK_RESET1_N -pg 1 -y 230 -defaultsOSRD
+preplace port FCLK_RESET3_N -pg 1 -y 270 -defaultsOSRD
+preplace port S_AXI_GP0_ACLK -pg 1 -y 170 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 90 -defaultsOSRD
+preplace port FCLK_RESET2_N -pg 1 -y 250 -defaultsOSRD
+preplace port FCLK_CLK0 -pg 1 -y 130 -defaultsOSRD
+preplace port FCLK_CLK1 -pg 1 -y 150 -defaultsOSRD
+preplace port FCLK_CLK2 -pg 1 -y 170 -defaultsOSRD
+preplace inst PS7 -pg 1 -lvl 1 -y 160 -defaultsOSRD
+preplace netloc PS7_FCLK_RESET1_N 1 1 1 N
+preplace netloc PS7_DDR 1 1 1 N
+preplace netloc PS7_FIXED_IO 1 1 1 N
+preplace netloc PS7_FCLK_RESET3_N 1 1 1 N
+preplace netloc PS7_FCLK_RESET0_N 1 1 1 N
+preplace netloc S_AXI_GP0_ACLK_1 1 0 1 N
+preplace netloc PS7_FCLK_CLK0 1 1 1 N
+preplace netloc PS7_FCLK_CLK1 1 1 1 N
+preplace netloc PS7_FCLK_CLK2 1 1 1 N
+preplace netloc S_AXI_GP0_1 1 0 1 N
+preplace netloc PS7_FCLK_RESET2_N 1 1 1 N
+preplace netloc PS7_FCLK_CLK3 1 1 1 N
+levelinfo -pg 1 150 380 610
+",
+}
+{
+   da_ps7_cnt: "1",
+}

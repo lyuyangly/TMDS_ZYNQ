@@ -1,0 +1,19 @@
+#include "xparameters.h"
+#include "xil_io.h"
+#include "unistd.h"
+#include "pic_1280_720.h"
+
+int main(void)
+{
+	size_t x, y;
+
+	usleep(5000000);
+	for (x = 0; x < 1280; x++) {
+		for (y = 0; y < 720; y++) {
+			Xil_Out8(0x30000000 + (x + y * 1280) * 4 + 0, Pixel_1280_720[(x + y * 1280)*3 + 0]);
+			Xil_Out8(0x30000000 + (x + y * 1280) * 4 + 1, Pixel_1280_720[(x + y * 1280)*3 + 1]);
+			Xil_Out8(0x30000000 + (x + y * 1280) * 4 + 2, Pixel_1280_720[(x + y * 1280)*3 + 2]);
+		}
+	}
+	return 0;
+}

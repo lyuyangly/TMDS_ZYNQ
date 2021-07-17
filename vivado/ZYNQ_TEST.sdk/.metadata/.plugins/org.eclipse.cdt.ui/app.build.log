@@ -1,0 +1,7 @@
+20:40:28 **** Clean-only build of configuration Debug for project app ****
+make clean 
+rm -rf  ./src/app.o  ./src/app.d  app.elf.size  app.elf
+ 
+
+20:40:28 Build Finished (took 656ms)
+

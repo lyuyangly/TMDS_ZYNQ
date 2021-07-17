@@ -1,0 +1,27 @@
+#include "xparameters.h"
+#include "xil_io.h"
+#include "unistd.h"
+
+int main(void)
+{
+	size_t x, y;
+
+	while (1) {
+		for (x = 0; x < 1280; x++) {
+			for (y = 0; y < 720; y++)
+				Xil_Out32(0x30000000 + 4 * (x + y * 1280), 0xff0000);
+		}
+		usleep(1000000);
+		for (x = 0; x < 1280; x++) {
+			for (y = 0; y < 720; y++)
+				Xil_Out32(0x30000000 + 4 * (x + y * 1280), 0xff00);
+		}
+		usleep(1000000);
+		for (x = 0; x < 1280; x++) {
+			for (y = 0; y < 720; y++)
+				Xil_Out32(0x30000000 + 4 * (x + y * 1280), 0xff);
+		}
+		usleep(1000000);
+	}
+	return 0;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="HDMIVideoTest_hw_platform_0-device"/>
+	<item value="" key="HDMIVideoTest_hw_platform_0-bmmFile"/>
+	<item value="ZYNQ_TEST_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="false" key="HDMIVideoTest_hw_platform_0-partial_bit"/>
+	<item value="HDMIVideoTest.bit" key="HDMIVideoTest_hw_platform_0-bitFile"/>
+	<item value="/home/lyuyang/WORK/ZYNQ_TEST/vivado/ZYNQ_TEST.runs/impl_1/ZYNQ_TEST.bit" key="ZYNQ_TEST_hw_platform_0-bitFile"/>
+	<item value="false" key="ZYNQ_TEST_hw_platform_0-partial_bit"/>
+	<item value="Local" key="HDMIVideoTest_hw_platform_0-target"/>
+	<item value="" key="ZYNQ_TEST_hw_platform_0-bmmFile"/>
+	<item value="Local" key="ZYNQ_TEST_hw_platform_0-target"/>
+	<item value="Auto Detect" key="ZYNQ_TEST_hw_platform_0-device"/>
+</section>
